@@ -50,16 +50,6 @@ module.exports = {
               "style": 2,
               "type": 2,
               "label": "Order Terms",
-              "flow": {
-                "actions": [
-                  {
-                    "type": 6,
-                    "flags": 64,
-                    "backupId": "277179759220232193",
-                    "backupMessageIndex": 0
-                  }
-                ]
-              },
               "custom_id": "p_277178088477954050"
             }
           ]
