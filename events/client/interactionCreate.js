@@ -116,8 +116,8 @@ module.exports = {
 
       if (interaction.customId === "p_277178088477954050") {
         return interaction.reply({
-          flags: 32768,
-          components: [
+  ephemeral: true,
+  components: [
             {
               type: 17,
               components: [
