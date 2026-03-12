@@ -251,7 +251,7 @@ module.exports = {
                 },
                 {
                   type: 10,
-                  content: `${interaction.user} | @everyone\n\nThanks for ordering with **Desired's Commissions**. Briefly explain the commands & features you'd like in an ordered list. Additionally, you will be asked to make embeds that the bot sends. Ensure to share the share link of each embed, along with required role IDs, and channel IDs for the bot to send messages to.`
+                  content: `${interaction.user} | <@1476510465700921457>\n\nThanks for ordering with **Desired's Commissions**. Briefly explain the commands & features you'd like in an ordered list. Additionally, you will be asked to make embeds that the bot sends. Ensure to share the share link of each embed, along with required role IDs, and channel IDs for the bot to send messages to.`
                 },
                 {
                   type: 14,
