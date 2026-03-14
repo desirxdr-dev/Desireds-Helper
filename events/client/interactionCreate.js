@@ -13,7 +13,7 @@ module.exports = {
       if (interaction.customId === "p_276547220675760129") {
 
         const CATEGORY_ID = "1476794621441867947";
-        const STAFF_ROLE_ID = "1476512428031475843";
+        const STAFF_ROLE_ID = "1482030945883263046";
 
         const existing = interaction.guild.channels.cache.find(
           c => c.name === `support-${interaction.user.username}`
@@ -192,7 +192,7 @@ const channel = await interaction.guild.channels.create({
       if (interaction.customId === "p_277178048489459713") {
 
         const CATEGORY_ID = "1476517781368209460";
-        const STAFF_ROLE_ID = "1476512428031475843";
+        const STAFF_ROLE_ID = "1482030943198773400";
 
         const existing = interaction.guild.channels.cache.find(
           c => c.name === `order-${interaction.user.username}`
