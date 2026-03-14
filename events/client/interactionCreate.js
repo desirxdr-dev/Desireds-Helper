@@ -35,7 +35,7 @@ const channel = await interaction.guild.channels.create({
   parent: CATEGORY_ID,
   permissionOverwrites: [
   {
-    id: interaction.guild.id,
+    id: interaction.guild.roles.everyone,
     deny: [PermissionFlagsBits.ViewChannel]
   },
   {
@@ -208,13 +208,13 @@ const channel = await interaction.guild.channels.create({
 const staffRole = interaction.guild.roles.cache.get(STAFF_ROLE_ID);
 
 const channel = await interaction.guild.channels.create({
-  name: `support-${interaction.user.username}`,
+  name: `order-${interaction.user.username}`,
   topic: `ticket-owner:${interaction.user.id}`,
   type: ChannelType.GuildText,
   parent: CATEGORY_ID,
   permissionOverwrites: [
   {
-    id: interaction.guild.id,
+    id: interaction.guild.roles.everyone,
     deny: [PermissionFlagsBits.ViewChannel]
   },
   {
