@@ -10,12 +10,7 @@ module.exports = {
     const LOG_CHANNEL_ID = "1476518015133810819";
 
     // only allow in ticket channels
-if (
-  !message.channel.name.startsWith("support-") &&
-  !message.channel.name.startsWith("order-")
-) {
-  return message.reply(`${config.EMOJIS.x} This command can only be used in **tickets**.`);
-}
+
 
     // permission check
     if (
