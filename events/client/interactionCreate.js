@@ -26,32 +26,34 @@ module.exports = {
           });
         }
 
-        const channel = await interaction.guild.channels.create({
-          name: `support-${interaction.user.username}`,
-          topic: `ticket-owner:${interaction.user.id}`,
-          type: ChannelType.GuildText,
-          parent: CATEGORY_ID,
-          permissionOverwrites: [
-            {
-              id: interaction.guild.id,
-              deny: [PermissionFlagsBits.ViewChannel]
-            },
-            {
-              id: interaction.user.id,
-              allow: [
-                PermissionFlagsBits.ViewChannel,
-                PermissionFlagsBits.SendMessages
-              ]
-            },
-            {
-              id: STAFF_ROLE_ID,
-              allow: [
-                PermissionFlagsBits.ViewChannel,
-                PermissionFlagsBits.SendMessages
-              ]
-            }
-          ]
-        });
+const staffRole = interaction.guild.roles.cache.get(STAFF_ROLE_ID);
+
+const channel = await interaction.guild.channels.create({
+  name: `support-${interaction.user.username}`,
+  topic: `ticket-owner:${interaction.user.id}`,
+  type: ChannelType.GuildText,
+  parent: CATEGORY_ID,
+  permissionOverwrites: [
+    {
+      id: interaction.guild.id,
+      deny: [PermissionFlagsBits.ViewChannel]
+    },
+    {
+      id: interaction.user.id,
+      allow: [
+        PermissionFlagsBits.ViewChannel,
+        PermissionFlagsBits.SendMessages
+      ]
+    },
+    {
+      id: staffRole.id,
+      allow: [
+        PermissionFlagsBits.ViewChannel,
+        PermissionFlagsBits.SendMessages
+      ]
+    }
+  ]
+});
 
         await channel.send({
           components: [
@@ -203,32 +205,34 @@ module.exports = {
           });
         }
 
-        const channel = await interaction.guild.channels.create({
-          name: `order-${interaction.user.username}`,
-          topic: `ticket-owner:${interaction.user.id}`,
-          type: ChannelType.GuildText,
-          parent: CATEGORY_ID,
-          permissionOverwrites: [
-            {
-              id: interaction.guild.id,
-              deny: [PermissionFlagsBits.ViewChannel]
-            },
-            {
-              id: interaction.user.id,
-              allow: [
-                PermissionFlagsBits.ViewChannel,
-                PermissionFlagsBits.SendMessages
-              ]
-            },
-            {
-              id: STAFF_ROLE_ID,
-              allow: [
-                PermissionFlagsBits.ViewChannel,
-                PermissionFlagsBits.SendMessages
-              ]
-            }
-          ]
-        });
+const staffRole = interaction.guild.roles.cache.get(STAFF_ROLE_ID);
+
+const channel = await interaction.guild.channels.create({
+  name: `support-${interaction.user.username}`,
+  topic: `ticket-owner:${interaction.user.id}`,
+  type: ChannelType.GuildText,
+  parent: CATEGORY_ID,
+  permissionOverwrites: [
+    {
+      id: interaction.guild.id,
+      deny: [PermissionFlagsBits.ViewChannel]
+    },
+    {
+      id: interaction.user.id,
+      allow: [
+        PermissionFlagsBits.ViewChannel,
+        PermissionFlagsBits.SendMessages
+      ]
+    },
+    {
+      id: staffRole.id,
+      allow: [
+        PermissionFlagsBits.ViewChannel,
+        PermissionFlagsBits.SendMessages
+      ]
+    }
+  ]
+});
 
         await channel.send({
           components: [
