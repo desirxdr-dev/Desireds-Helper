@@ -35,7 +35,7 @@ const channel = await interaction.guild.channels.create({
   parent: CATEGORY_ID,
   permissionOverwrites: [
   {
-    id: interaction.guild.roles.everyone,
+    id: interaction.guild.roles.everyone.id,
     deny: [PermissionFlagsBits.ViewChannel]
   },
   {
@@ -214,7 +214,7 @@ const channel = await interaction.guild.channels.create({
   parent: CATEGORY_ID,
   permissionOverwrites: [
   {
-    id: interaction.guild.roles.everyone,
+    id: interaction.guild.roles.everyone.id,
     deny: [PermissionFlagsBits.ViewChannel]
   },
   {
