@@ -34,25 +34,25 @@ const channel = await interaction.guild.channels.create({
   type: ChannelType.GuildText,
   parent: CATEGORY_ID,
   permissionOverwrites: [
-    {
-      id: interaction.guild.id,
-      deny: [PermissionFlagsBits.ViewChannel]
-    },
-    {
-      id: interaction.user.id,
-      allow: [
-        PermissionFlagsBits.ViewChannel,
-        PermissionFlagsBits.SendMessages
-      ]
-    },
-    {
-      id: staffRole.id,
-      allow: [
-        PermissionFlagsBits.ViewChannel,
-        PermissionFlagsBits.SendMessages
-      ]
-    }
-  ]
+  {
+    id: interaction.guild.id,
+    deny: [PermissionFlagsBits.ViewChannel]
+  },
+  {
+    id: interaction.user.id,
+    allow: [
+      PermissionFlagsBits.ViewChannel,
+      PermissionFlagsBits.SendMessages
+    ]
+  },
+  {
+    id: STAFF_ROLE_ID,
+    allow: [
+      PermissionFlagsBits.ViewChannel,
+      PermissionFlagsBits.SendMessages
+    ]
+  }
+]
 });
 
         await channel.send({
@@ -213,25 +213,25 @@ const channel = await interaction.guild.channels.create({
   type: ChannelType.GuildText,
   parent: CATEGORY_ID,
   permissionOverwrites: [
-    {
-      id: interaction.guild.id,
-      deny: [PermissionFlagsBits.ViewChannel]
-    },
-    {
-      id: interaction.user.id,
-      allow: [
-        PermissionFlagsBits.ViewChannel,
-        PermissionFlagsBits.SendMessages
-      ]
-    },
-    {
-      id: staffRole.id,
-      allow: [
-        PermissionFlagsBits.ViewChannel,
-        PermissionFlagsBits.SendMessages
-      ]
-    }
-  ]
+  {
+    id: interaction.guild.id,
+    deny: [PermissionFlagsBits.ViewChannel]
+  },
+  {
+    id: interaction.user.id,
+    allow: [
+      PermissionFlagsBits.ViewChannel,
+      PermissionFlagsBits.SendMessages
+    ]
+  },
+  {
+    id: STAFF_ROLE_ID,
+    allow: [
+      PermissionFlagsBits.ViewChannel,
+      PermissionFlagsBits.SendMessages
+    ]
+  }
+]
 });
 
         await channel.send({
