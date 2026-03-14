@@ -56,7 +56,8 @@ const channel = await interaction.guild.channels.create({
 });
 
         await channel.send({
-          components: [
+  flags: 32768,
+  components: [
             {
               type: 17,
               components: [
@@ -235,7 +236,8 @@ const channel = await interaction.guild.channels.create({
 });
 
         await channel.send({
-          components: [
+  flags: 32768,
+  components: [
             {
               type: 17,
               components: [
