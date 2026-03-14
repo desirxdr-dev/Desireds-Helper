@@ -1,11 +1,10 @@
 const { PermissionFlagsBits } = require("discord.js");
 
 const REQUIRED_ROLE_ID = "1482030945883263046";
-const PREMIUM_ROLE_ID = "1482030975704760551";
 const LOG_CHANNEL_ID = "1476518757324292096";
 
 module.exports = {
-  name: "premium",
+  name: "accept",
 
   async execute(message, args) {
 
@@ -26,10 +25,6 @@ if (
       return message.reply("Failed to **fetch** user.");
     }
 
-    await member.roles.add(PREMIUM_ROLE_ID);
-
-    const logChannel = message.guild.channels.cache.get(LOG_CHANNEL_ID);
-    if (!logChannel) return;
 
     try {
       await message.delete();
@@ -37,7 +32,7 @@ if (
     }
 
 
-    await logChannel.send({
+    await message.channel.send({
   "flags": 32768,
   "components": [
     {
@@ -45,7 +40,15 @@ if (
       "components": [
         {
           "type": 10,
-          "content": `<:gift:1476806352801370172> Thank you ${member} for purchasing **Colorado Plus**! We greatly appreciate your purchase, and we hope you enjoy your new perks.`
+          "content": `# <:verified:1482405307585138830> Application Accepted\n${member}`
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": `Thanks for showing interest in becoming a moderator at **Desired's Commissions**. Your application has been accepted! Congratulations and welcome to the team. You are being placed on trial for **2 weeks**. If you receive any infractions or a Manager+ deems that you are not fit for this role, you will be terminated.`
         },
         {
           "type": 14,
@@ -56,7 +59,7 @@ if (
           "items": [
             {
               "media": {
-                "url": "https://media.discordapp.net/attachments/1476517914260541563/1477781364198608966/Screenshot_2026-02-19_212527.png?ex=69a602a5&is=69a4b125&hm=80cf03649f009744135a10f9265a8192b1ee775a650c9201c5a36878daec1fdb&=&format=webp&quality=lossless"
+                "url": "https://media.discordapp.net/attachments/1476517914260541563/1478679346809016391/image.png?ex=69b675f4&is=69b52474&hm=20410716bf07221bf920f99144e7dbf7dbc54e0752c557782b5977d8a11fa11b&=&format=webp&quality=lossless"
               }
             }
           ]

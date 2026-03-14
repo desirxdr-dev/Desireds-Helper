@@ -16,12 +16,7 @@ module.exports = {
     }
 
     // only allow in tickets
-    if (
-      !message.channel.name.startsWith("support-") &&
-      !message.channel.name.startsWith("order-")
-    ) {
-      return message.reply(`${config.EMOJIS.x} This command can only be used inside **tickets**.`);
-    }
+
 
     const newName = args.join("-").toLowerCase();
 
