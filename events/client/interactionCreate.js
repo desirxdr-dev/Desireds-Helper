@@ -10,7 +10,7 @@ module.exports = {
     if (interaction.isButton()) {
 
       // ORIGINAL TICKET BUTTON
-      if (interaction.customId === "p_276547220675760129") {
+      if (interaction.customId === "p_280442048509644801") {
 
         const CATEGORY_ID = "1476794621441867947";
         const STAFF_ROLE_ID = "1482030945883263046";
@@ -66,7 +66,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1478952026552537340/image.png?ex=69aa44e8&is=69a8f368&hm=cc4f44bc2cb6405e1a2e2ac703307344a11442482b214bf418d59e2141191952&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843592719597814/image.png?ex=69b86d36&is=69b71bb6&hm=cd0d58cd2ce377ec98e119dde9b0d2adb2823b9e8bedac9915333a8f602cbd3f&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -100,7 +100,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1478679346809016391/image.png?ex=69a9efb4&is=69a89e34&hm=6ab8cdc6134fa53923c6dbf8a712a993aa3dde88b6f9f40e58e28aab729fab8f&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b86d52&is=69b71bd2&hm=9d9820c5b7590006d8046f775946f7cc66e77dad92a98aed53fe4a2f652d2112&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -115,6 +115,76 @@ const channel = await interaction.guild.channels.create({
           ephemeral: true
         });
 
+      }
+
+
+      if (interaction.customId === "p_280442420720570370") {
+        return interaction.reply({
+  "flags": 32768,
+  "components": [
+    {
+      "type": 17,
+      "components": [
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1476517914260541563/1482843237067522129/image.png?ex=69b86ce1&is=69b71b61&hm=a9382a57f881785c7d7800d8bd10bbd6f59b073d19a2121ac2ea7779ac482fca&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 10,
+          "content": "` #1 ` **Discord ToS & Community Guidelines**\n- You are required to follow all guidelines listed within [Discord ToS](https://discord.com/terms) & [Discord Community Guidelines](https://discord.com/guidelines). \n- Failure to do so will result in a non-appealable ban from our server & a report to Discord."
+        },
+        {
+          "type": 14,
+          "divider": false
+        },
+        {
+          "type": 10,
+          "content": "` #2 ` **Respect**\n- Disrespect, hateful speech, or discrimination is prohibited.\n- Racism is strictly prohibited."
+        },
+        {
+          "type": 14,
+          "divider": false
+        },
+        {
+          "type": 10,
+          "content": "` #3 ` **Disruptions & Channel Usage**\n- Disruptions, drama, & pings should be kept to a minimum.\n- Mentioning Management+ without a valid reason will result in moderation.\n- Ensure to use the correct channel for the correct usage."
+        },
+        {
+          "type": 14,
+          "divider": false
+        },
+        {
+          "type": 10,
+          "content": "` #4 ` **Common Sense**\n- Use your common sense at all times.\n- You may be moderated for reasons that are not listed here."
+        },
+        {
+          "type": 14,
+          "spacing": 2
+        },
+        {
+          "type": 12,
+          "items": [
+            {
+              "media": {
+                "url": "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b86d52&is=69b71bd2&hm=9d9820c5b7590006d8046f775946f7cc66e77dad92a98aed53fe4a2f652d2112&=&format=webp&quality=lossless"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+})
       }
 
       if (interaction.customId === "p_277178088477954050") {
@@ -246,7 +316,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1478678983577960541/image.png?ex=69abe99e&is=69aa981e&hm=a18f9817c52f335ee2bea0cf4a8367cd886cc00615f8bf248e3390c88a73524d&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843659970936952/image.png?ex=69b86d46&is=69b71bc6&hm=efc1b69700137265cc4134a5a7a9817cdd6de16bd3842c618342f5b25620d80b&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -268,7 +338,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1478679346809016391/image.png?ex=69abe9f4&is=69aa9874&hm=a85e38873c36fce47668fd3947172dfff7101cb1a90d47076d6478164a7aec31&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b86d52&is=69b71bd2&hm=9d9820c5b7590006d8046f775946f7cc66e77dad92a98aed53fe4a2f652d2112&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -279,7 +349,7 @@ const channel = await interaction.guild.channels.create({
         });
 
         return interaction.reply({
-          content: `<:check:1476780433864654971> Ticket created: ${channel}`,
+          content: `<:check:1476780433864654971> Order created: ${channel}`,
           ephemeral: true
         });
 
