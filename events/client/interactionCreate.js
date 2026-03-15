@@ -121,6 +121,7 @@ const channel = await interaction.guild.channels.create({
       if (interaction.customId === "p_280442420720570370") {
         return interaction.reply({
   "flags": 32768,
+  ephemeral: true,
   "components": [
     {
       "type": 17,
