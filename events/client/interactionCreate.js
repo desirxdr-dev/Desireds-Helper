@@ -177,7 +177,7 @@ const channel = await interaction.guild.channels.create({
           "items": [
             {
               "media": {
-                "url": "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b86d52&is=69b71bd2&hm=9d9820c5b7590006d8046f775946f7cc66e77dad92a98aed53fe4a2f652d2112&=&format=webp&quality=lossless"
+                "url": "https://media.discordapp.net/attachments/1476517914260541563/1482843592719597814/image.png?ex=69b915f6&is=69b7c476&hm=187b95ef19ed1fb46f2fa6137413a9eba9049e97881875ea6df5a1bc493c816b&=&format=webp&quality=lossless"
               }
             }
           ]
@@ -201,7 +201,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1479581763411120365/image.png?ex=69b3cfa5&is=69b27e25&hm=f43024215b78a6f73d9d525400bee80a5ab2f17a4d5b69b8344e561ff23864de&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b91612&is=69b7c492&hm=fb456d4ed313b7176fc3515820e0767ea7f50a8656cd8f77e68d039cbda9d3cb&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -247,7 +247,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1478679346809016391/image.png?ex=69b3d2f4&is=69b28174&hm=e3ce7b50ae6ddf1aa69728ac5c18fc5abae92308b0f2ea5ba43154a4ec24f442&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b91612&is=69b7c492&hm=fb456d4ed313b7176fc3515820e0767ea7f50a8656cd8f77e68d039cbda9d3cb&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -317,7 +317,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843659970936952/image.png?ex=69b86d46&is=69b71bc6&hm=efc1b69700137265cc4134a5a7a9817cdd6de16bd3842c618342f5b25620d80b&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843659970936952/image.png?ex=69b91606&is=69b7c486&hm=108603f541eaa03e667fab602e64228c75414a9e87f46d3524b99b010cf5d624&=&format=webp&quality=lossless"
                       }
                     }
                   ]
@@ -339,7 +339,7 @@ const channel = await interaction.guild.channels.create({
                   items: [
                     {
                       media: {
-                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b86d52&is=69b71bd2&hm=9d9820c5b7590006d8046f775946f7cc66e77dad92a98aed53fe4a2f652d2112&=&format=webp&quality=lossless"
+                        url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b91612&is=69b7c492&hm=fb456d4ed313b7176fc3515820e0767ea7f50a8656cd8f77e68d039cbda9d3cb&=&format=webp&quality=lossless"
                       }
                     }
                   ]
