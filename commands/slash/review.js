@@ -57,7 +57,7 @@ module.exports = {
               items: [
                 {
                   media: {
-                    url: "https://media.discordapp.net/attachments/1476517914260541563/1476749594628194304/image.png"
+                    url: "https://media.discordapp.net/attachments/1476517914260541563/1482843395729789029/image.png?ex=69b915c7&is=69b7c447&hm=f8dc66fbd43e043c59c74ca94b8efead5b774eaa3245be0ec5e7d8082b3ce5ab&=&format=webp&quality=lossless"
                   }
                 }
               ]
@@ -105,7 +105,7 @@ module.exports = {
               items: [
                 {
                   media: {
-                    url: "https://media.discordapp.net/attachments/1476517914260541563/1476772972797886579/image.png"
+                    url: "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b91612&is=69b7c492&hm=fb456d4ed313b7176fc3515820e0767ea7f50a8656cd8f77e68d039cbda9d3cb&=&format=webp&quality=lossless"
                   }
                 }
               ]

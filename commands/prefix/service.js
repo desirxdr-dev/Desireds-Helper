@@ -16,7 +16,7 @@ module.exports = {
           "items": [
             {
               "media": {
-                "url": "https://media.discordapp.net/attachments/1476517914260541563/1478678983577960541/image.png?ex=69abe99e&is=69aa981e&hm=a18f9817c52f335ee2bea0cf4a8367cd886cc00615f8bf248e3390c88a73524d&=&format=webp&quality=lossless"
+                "url": "https://media.discordapp.net/attachments/1476517914260541563/1482843296706596966/image.png?ex=69b915af&is=69b7c42f&hm=483fcb18e589f180eb09b0104f43b6d7b1cb881183741f959a8d5534a1acadf3&=&format=webp&quality=lossless"
               }
             }
           ]
@@ -63,7 +63,7 @@ module.exports = {
           "items": [
             {
               "media": {
-                "url": "https://media.discordapp.net/attachments/1476517914260541563/1478679346809016391/image.png?ex=69abe9f4&is=69aa9874&hm=a85e38873c36fce47668fd3947172dfff7101cb1a90d47076d6478164a7aec31&=&format=webp&quality=lossless"
+                "url": "https://media.discordapp.net/attachments/1476517914260541563/1482843709887221971/image.png?ex=69b91612&is=69b7c492&hm=fb456d4ed313b7176fc3515820e0767ea7f50a8656cd8f77e68d039cbda9d3cb&=&format=webp&quality=lossless"
               }
             }
           ]
